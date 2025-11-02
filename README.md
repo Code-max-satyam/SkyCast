@@ -1,16 +1,94 @@
-# React + Vite
+# 🌦️ SkyCast - Modern Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkyCast is a modern weather web application built with **React + Vite** that provides real-time weather data, 5-day forecasts, air quality index, and sunrise/sunset timings.  
+It uses OpenWeather API for accurate and up-to-date weather information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌍 **Current Weather** – Displays real-time temperature, conditions, and location.
+- 
+- 📅 **5-Day Forecast** – View upcoming weather conditions for the week.
+- 
+- 🌤️ **Air Quality Index** – See real-time AQI data with pollutant breakdown.
+- 
+- 🌅 **Sunrise & Sunset Times** – Know when the day begins and ends.
+- 
+- 💧 **Additional Info** – Humidity, pressure, visibility, and “feels like” temperature.
+- 
+- 📍 **Current Location Support** – Get weather updates for your location with one click.
+- 
+- 🔍 **Search Functionality** – Search weather by city name.
+- 
+- 🌗 **Dark / Light Mode Toggle** – Modern clean UI with theme support.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖥️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js (Vite)** – Frontend framework
+- 
+- **Axios** – For API calls
+- 
+- **Material UI (MUI)** – Icons and UI components
+- 
+- **OpenWeatherMap API** – Weather data source
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/skycast-weather-app.git
+Navigate to the project
+
+bash
+Copy code
+cd skycast-weather-app
+Install dependencies
+
+bash
+Copy code
+npm install
+Run the app
+
+
+ ## Preview 📸
+
+ <img width="1892" height="925" alt="Screenshot 2025-11-02 213535" src="https://github.com/user-attachments/assets/048a944c-1bf1-4091-8230-4ca9af4d95aa" />
+
+
+🧩 Folder Structure
+css
+Copy code
+src/
+├── assets/
+├── Components/
+│   ├── Navbar.jsx
+│   ├── Mainweather.jsx
+│   ├── Fivedaycast.jsx
+│   ├── Todayhighlights.jsx
+│   └── Highlightbox.jsx
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+🔑 API Reference
+Sign up at https://openweathermap.org/api
+Create an API key and replace it in your axios request.
+
+🧠 Future Improvements
+🌈 Add hourly forecast
+
+🌍 Add weather maps and radar view
+
+🌡️ Support for multiple units (°C / °F)
+
+
+💙 Author
+Satyam
+📧 Feel free to connect on Gmail — satyam10april02@gmail.com
+
+
