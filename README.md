@@ -41,7 +41,7 @@ It uses OpenWeather API for accurate and up-to-date weather information.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/skycast-weather-app.git
+   git clone https://github.com/Code-max-satyam/SkyCast
 Navigate to the project
 
 bash
@@ -61,25 +61,41 @@ Run the app
 
 
 🧩 Folder Structure
+
 css
 Copy code
 src/
+
 ├── assets/
+
 ├── Components/
+
 │   ├── Navbar.jsx
+
 │   ├── Mainweather.jsx
+
 │   ├── Fivedaycast.jsx
+
 │   ├── Todayhighlights.jsx
+
 │   └── Highlightbox.jsx
+
 ├── App.jsx
+
 ├── App.css
+
 ├── main.jsx
+
 └── index.css
+
 🔑 API Reference
+
 Sign up at https://openweathermap.org/api
+
 Create an API key and replace it in your axios request.
 
 🧠 Future Improvements
+
 🌈 Add hourly forecast
 
 🌍 Add weather maps and radar view
